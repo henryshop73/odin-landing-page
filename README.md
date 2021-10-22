@@ -1,1 +1,1 @@
-This is my Odin Project: Landing Page
+This is my Odin Project: Landing Page. In this project I have made a landing page using htnl and Css

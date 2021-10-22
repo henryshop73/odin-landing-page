@@ -1,0 +1,191 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+} 
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* Header */
+.header{
+    background-color: #1F2937;
+}
+ 
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar a {
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 2.4rem;
+    color: #F9FAF8;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+
+.main-navigation {
+    text-decoration: none;
+    margin-top: 2rem; 
+}
+
+/* Section 1 */
+.main-text {
+    background-color: #1F2937;
+    color: #F9FAF8;    
+}
+
+.ubication {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: bold;
+    
+}
+
+.secondary-text {
+    font-size: 24px;
+    color: #E5E7EB;
+
+}
+
+.main-img {
+    height: 25rem;
+    width: 60rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    padding: 2rem;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: .6rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+/* Main */
+.subtitle {
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.info img {
+    border-radius: 25%;
+    border-style: solid;
+    border-color: blue;
+    border-width: .5rem;
+    margin-top: 5rem;
+}
+
+.info p {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Blockquote */
+.blockquote {
+    background-color: #E5E7EB;
+    padding: 4rem;
+    margin-bottom: 10rem;
+}
+
+.blockquote-text {
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.blockquote-sign {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5rem;
+}
+
+/* Contact */
+.contact {
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.button-contact {
+    background-color: #3882F6;
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: .6rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    border-style: solid;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.call h3 {
+    font-size: 2.5rem;
+    margin-left: 5rem;
+}
+
+.call p {
+    font-size: 1.5;
+    margin-left: 5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+
+
